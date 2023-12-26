@@ -1,0 +1,62 @@
+.edit_form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit_form input {
+  margin-left: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.edit_form label {
+  font-weight: 900;
+}
+
+.buttons_wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.buttons_wrapper .save {
+  background-color: #2196f3; 
+  color: #ffffff; 
+  padding: 5px 10px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 14px;
+}
+
+.buttons_wrapper .save:hover {
+  background-color: #1565c0;
+  transition: 200ms;
+}
+
+.buttons_wrapper .save:active {
+  background-color: #0d47a1;
+}
+
+.buttons_wrapper .cancel{
+    background-color: #d32f2f; 
+    color: #ffffff; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+
+
+.buttons_wrapper .cancel:hover{
+    background-color: #b71c1c;
+    transition: 200ms;
+}
+
+.buttons_wrapper .cancel:active{
+    background-color: #7f0000;
+}

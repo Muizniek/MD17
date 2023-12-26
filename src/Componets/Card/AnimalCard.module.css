@@ -1,0 +1,68 @@
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  background-color: #e8f5e9;
+}
+
+.card_wrapper img {
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.card_wrapper h1 {
+  margin: 0px;
+}
+
+.delete_edit_card {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.delete_edit_card .delete {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete_edit_card .delete:hover {
+  background-color: #cc0000;
+  transition: 200ms;
+}
+
+.delete_edit_card .delete:active {
+  background-color: #990000;
+}
+
+.delete_edit_card .edit {
+  background-color: #4caf50; 
+  color: #ffffff; 
+  padding: 5px 10px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 14px; 
+}
+
+.delete_edit_card .edit:hover {
+  background-color: #45a049;
+  transition: 200ms;
+}
+
+.delete_edit_card .edit:active {
+  background-color: #39843c;
+}
